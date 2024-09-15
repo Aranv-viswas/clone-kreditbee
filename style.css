@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 10px 50px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.header .logo {
+    width: 180px;
+}
+.header .right {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+.navbar a {
+    padding: 20px;
+    color: #171e31;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.right i {
+    scale: 1.8;
+    color: #171e31;
+}
+.signup {
+    font-size: 16px;
+    padding: 12px;
+    border: 2px solid;
+    border-radius: 8px;
+    color: #d44a6c;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
